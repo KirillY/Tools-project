@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 from UserManagementApp.models import UserLoginDatetime
 from django.contrib.auth.decorators import user_passes_test
 
+
 def update_user_last_login_datetime(request):
     event = UserLoginDatetime()  # creating an empty instance
     event.user_name = request.user.get_username()  # remember username in the attribute
@@ -39,6 +40,7 @@ def login(request):
             # return HttpResponseRedirect("/", {'errors': True}) #it's not possible to pass any arguments than path ('/') to HttpResponseRedirect
     raise Http404
 
+
 @user_passes_test(lambda u: u.is_authenticated)
 def user_stats(request):
     user_login_data = UserLoginDatetime.objects.filter(user_name=request.user)
@@ -53,7 +55,7 @@ def logout(request):
 def registration(request):
     if request.method == 'POST':  # check if data is sent by the POST method (all forms use POST method)
         form = MyRegistrationForm(request.POST)
-        # print(request.POST)
+        print(request.POST)
         if form.is_valid():
             form.save()
             return HttpResponseRedirect('/')
@@ -67,6 +69,7 @@ def registration(request):
 def admin_page(request):
     users = User.objects.all()
     return render(request, 'admin-page.html', {'users': users})
+
 
 @user_passes_test(lambda u: u.is_superuser)
 def delete_user(request, user_id):

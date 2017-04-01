@@ -10,8 +10,9 @@ class MyRegistrationForm(UserCreationForm):
 
     class Meta:
         model = User
-        #the most important Meta fields attribute - define form fields
-        fields = ('username', 'email', 'password1', 'password2', 'last_name', 'first_name') #password is added in the form in any case
+        # the most important Meta fields attribute - define form fields
+        fields = ('username', 'email', 'password1', 'password2', 'last_name',
+                  'first_name')  # password is added in the form in any case
         # fields = ('password',)
 
     def save(self, commit=True):
@@ -22,11 +23,3 @@ class MyRegistrationForm(UserCreationForm):
         if commit:
             user.save()
         return user
-
-    # username = forms.CharField(help_text='', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    #
-    # class Meta:
-    #     model = User
-    #     # fields = ('username', 'email', 'password1', 'password2', 'first_name')
-    #     fields = ('username', 'email', 'password1', 'password2', 'first_name', 'last_name')
-    #     # fields = ('__all__')

@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
+{% block title %}
+    <title>Admin page</title>
+{% endblock %}
+
 {% block menu %}
     <ul class="nav navbar-nav navbar-right">
         <li><a href="{% url 'registration' %}">Registration</a></li>

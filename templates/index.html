@@ -1,6 +1,10 @@
 {% extends "base.html" %}
 {% load staticfiles %}
 
+{% block title %}
+    <title>Tools</title>
+{% endblock %}
+
 {% block menu %}
     <ul class="nav navbar-nav navbar-right">
         {% if request.user.is_authenticated %}

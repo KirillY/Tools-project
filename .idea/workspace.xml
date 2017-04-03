@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="756c01ee-f8be-4bdf-99a0-5a9724c07188" name="Default" comment="Finished task 1.1 &#10;1.1) Создать раздел с авторизацией по паролю из 3 страниц:&#10;- с формой для логина/пароля,&#10;- закрытую по паролю - где пользователь увидит таблицу с информацией о своих последних визитах из БД,&#10;- страница logout, на которую после выхода попадает пользователь.&#10;Данные авторизации на стороне клиента - в cookies.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea.zip" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/quiz-probation-project.iml" afterPath="$PROJECT_DIR$/.idea/quiz-probation-project.iml" />
+    <list default="true" id="756c01ee-f8be-4bdf-99a0-5a9724c07188" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dump03042017.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tools/settings.py" afterPath="$PROJECT_DIR$/Tools/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,8 +76,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tools/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-485">
-              <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+            <state relative-caret-position="297">
+              <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -403,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490933287110</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add mysql db dump">
+      <created>1491180726396</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1491180726396</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,7 +457,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finished task 1.1 &#10;1.1) Создать раздел с авторизацией по паролю из 3 страниц:&#10;- с формой для логина/пароля,&#10;- закрытую по паролю - где пользователь увидит таблицу с информацией о своих последних визитах из БД,&#10;- страница logout, на которую после выхода попадает пользователь.&#10;Данные авторизации на стороне клиента - в cookies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished task 1.1 &#10;1.1) Создать раздел с авторизацией по паролю из 3 страниц:&#10;- с формой для логина/пароля,&#10;- закрытую по паролю - где пользователь увидит таблицу с информацией о своих последних визитах из БД,&#10;- страница logout, на которую после выхода попадает пользователь.&#10;Данные авторизации на стороне клиента - в cookies." />
+    <MESSAGE value="add mysql db dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mysql db dump" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -829,8 +834,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tools/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-485">
-          <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        <state relative-caret-position="297">
+          <caret line="131" column="1" lean-forward="true" selection-start-line="131" selection-start-column="1" selection-end-line="131" selection-end-column="1" />
           <folding />
         </state>
       </provider>

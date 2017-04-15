@@ -78,10 +78,8 @@ WSGI_APPLICATION = 'Tools.wsgi.application'
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3', # sqlite setting
-        'ENGINE': 'django.db.backends.mysql',
-        # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'), # sqlite setting
-        'NAME':'newsrucom_trial',
+        'ENGINE': 'django.db.backends.sqlite3', # sqlite setting
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'), # sqlite setting
         'USER':'django',
         'PASSWORD':'geekbrains'
     }

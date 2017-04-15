@@ -4,7 +4,7 @@ Python 3.5.2
 su login: django
 password: geekbrains
 
-users list and delete user: /admin/ 
+Админка: /admin/ 
 
 1.1) Создать раздел с авторизацией по паролю из 3 страниц:
 - с формой для логина/пароля,
